@@ -1,0 +1,37 @@
+<!DOCTYPE HTML>
+    <html>
+        <head>
+            <title> What's new in the world?</title>
+            <link rel="stylesheet" type="text/css" href="news.css">
+        </head>
+        <body>
+            <div id="header">
+                <h1> Welcome to the Meilen-Hilerio News Sharing Center</h1>
+            </div>
+            
+            <h1> If you are already a user, fill out the below!</h1>
+            <div id="already_user" >
+            <form action= "already_user.php" method="POST">
+                <input type="text" name="username" value="Username goes here"> Please Enter your Username!
+                <input type="text" name="password"> Please Enter your Password!
+                <input id="log_in" type="submit" value="Log Into My News Files">
+            </form>
+            </div>
+            
+            <h2> Want to be a user? Fill out some information for us!</h2>
+            <div id="new_user" >
+            <form action= "new_user.php" method="POST">
+                <input type="text" name="new_username" value="Username goes here"> Please Enter your Username!
+                <input type="text" name="new_password"> Please Enter your Password!
+                <input id="register" type="submit" value="Register to use our site!">
+            </form>
+            </div>
+            
+            
+            
+            <form action= "not_user.php" method="POST">
+                <input id="view" type="submit" value="View Stories as a Guest">
+            </form>
+            
+        </body>
+    </html>

@@ -1,0 +1,12 @@
+
+   body{
+    background-color: #FFB2B2;
+   }
+
+    #header{
+        text-align: center;
+        color : #D6F5FF;
+        background-color: #FF0000;
+        opacity : 0.8;
+        padding : 20px;
+    }
